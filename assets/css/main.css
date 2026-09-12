@@ -167,6 +167,7 @@ h6 {
 .header .logo {
   line-height: 1;
   margin-bottom: 15px;
+  padding-top: 20px;
 }
 
 .header .logo img {
@@ -966,7 +967,7 @@ section,
 }
 
 .services .service-item .icon {
-  background: var(--accent-color);
+  background: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -982,6 +983,12 @@ section,
   color: var(--contrast-color);
   font-size: 24px;
   line-height: 0;
+}
+
+.services .service-item .icon img.stage-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
 
 .services .service-item:hover .icon {
