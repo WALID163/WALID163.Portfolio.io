@@ -876,6 +876,17 @@ section,
 
 .portfolio .portfolio-content img {
   transition: 0.3s;
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.portfolio .portfolio-img {
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .portfolio .portfolio-img-scale {
